@@ -1,0 +1,91 @@
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 1.5rem;
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+    select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    display: flex;
+  gap: 12rem;
+  }
+  
+  .btnsubmit:hover {
+    background-color: #0056b3;
+  }
+
+  .btnsubmit{
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    /* padding: 10px 10px; */
+    /* margin: 8px 0; */
+    border-color: #4CAF50;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    
+  }
+ 
+
+
+.main-chart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  /* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .container {
+      margin: 20px auto; /* Adjust margin for smaller screens */
+      padding: 1rem; /* Reduce padding for smaller screens */
+    }
+  }
+  @media (max-width: 600px) {
+    input,
+  textarea,
+  select {
+      width: 80%; /* Adjust margin for smaller screens */
+       /* Reduce padding for smaller screens */
+    }
+  }
+  @media (max-width: 600px) {
+    .form-actions {
+      display: flex;
+      gap:10px;
+    font-size: 18px;
+    }
+  }
+  .total-amount{
+    display: flex;
+    justify-content: center;
+  }
+  .btnDownload{
+    cursor: pointer;
+    padding: 8px;
+    background-color: #4CAF50;
+    background-color: #4CAF50;
+    border-radius: 4px;
+  }
