@@ -16,7 +16,7 @@ const ProfileForm = () => {
 
   useEffect(() => {
     fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyCSG5Kbk3sUVdj-uTdvWKMEOnbV-pe5QZY",
+      "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyD1Mml7FmfjJvSPb6XwyoTavGB-77xUOBI",
       {
         method: "POST",
         body: JSON.stringify({
@@ -56,7 +56,7 @@ const ProfileForm = () => {
     event.preventDefault();
   
     fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyCSG5Kbk3sUVdj-uTdvWKMEOnbV-pe5QZY",
+      "https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyD1Mml7FmfjJvSPb6XwyoTavGB-77xUOBI",
       {
         method: "POST",
         body: JSON.stringify({
